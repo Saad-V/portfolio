@@ -1,47 +1,56 @@
-<div align="center">
-<img alt="Portfolio" src="https://github.com/dillionverma/portfolio/assets/16860528/57ffca81-3f0a-4425-b31d-094f61725455" width="90%">
-</div>
+# V Saad — Personal Portfolio
 
-# Portfolio [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdillionverma%2Fportfolio)
+Personal portfolio showcasing my builds, projects, work experience, and engineering background.
 
-Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://magicui.design/), deployed on Vercel.
+🌐 **Live Website:** [saad-v.vercel.app](https://saad-v.vercel.app)
 
-# Features
+---
 
-- Setup only takes a few minutes by editing the [single config file](./src/data/resume.tsx)
-- Built using Next.js 14, React, Typescript, Shadcn/UI, TailwindCSS, Framer Motion, Magic UI
-- Includes a blog
-- Responsive for different devices
-- Optimized for Next.js and Vercel
+## 🛠️ Tech Stack
 
-# Getting Started Locally
+- **Framework:** [Next.js](https://nextjs.org/) (App Router, Turbopack)
+- **Language:** TypeScript
+- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
+- **UI Components & Animations:** [shadcn/ui](https://ui.shadcn.com/), [Magic UI](https://magicui.design/), [Motion](https://motion.dev/)
+- **Content & Markdown:** [Content Collections](https://content-collections.dev/), React Markdown
+- **Deployment:** [Vercel](https://vercel.com/)
 
-1. Clone this repository to your local machine:
+---
 
+## 🚀 Featured Projects
+
+- **[PUC Notes & Solutions](https://www.pucnotes-solutions.com)** — Educational resource platform serving 5k–10k+ monthly active students across Karnataka.
+- **[AiiN](https://aiin-web.onrender.com/)** — Real-time AI interview rehearsal platform with FastAPI, PostgreSQL, WebSockets, and Gemini API.
+- **[Nutrino](https://nutrino-brown.vercel.app/)** — Multimodal GenAI nutrition assistant with image-based logging and regional diet conditioning.
+- **[EVSE Simulator](https://github.com/Saad-V/EVSE-Simulator)** — Deterministic EVSE charge controller simulator on ESP32-S2 built with FreeRTOS.
+- **[Smart Switching](https://github.com/Saad-V/Smart_Switching)** — Dual-mode IoT automation on ESP32 with IR protocol decoding and Blynk cloud synchronization.
+
+---
+
+## 💻 Getting Started Locally
+
+1. **Clone the repository:**
    ```bash
-   git clone https://github.com/dillionverma/portfolio
-   ```
-
-2. Move to the cloned directory
-
-   ```bash
+   git clone https://github.com/Saad-V/portfolio.git
    cd portfolio
    ```
 
-3. Install dependencies:
-
+2. **Install dependencies:**
    ```bash
    pnpm install
    ```
 
-4. Start the local Server:
-
+3. **Run development server:**
    ```bash
    pnpm dev
    ```
 
-5. Open the [Config file](./src/data/resume.tsx) and make changes
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-# License
+---
 
-Licensed under the [MIT license](https://github.com/dillionverma/portfolio/blob/main/LICENSE.md).
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE.md).
+
+*Credit to [Dillion Verma](https://github.com/dillionverma/portfolio) for the initial template design.*
