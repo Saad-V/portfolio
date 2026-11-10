@@ -13,7 +13,7 @@ export const DATA = {
   description:
     "Engineer who loves taking ideas from paper to deployment.",
   summary:
-    "I'm an engineering undergrad at BMSIT&M in Bengaluru who enjoys building products and solving engineering problems end-to-end by taking an idea from a rough sketch on paper all the way to a live, deployed system. I've built and scaled **pucnotes-solutions.com** to thousands of monthly active users (~5k regular, peaking at 10k+), made a **real-time AI interview platform (AiiN)** with FastAPI and PostgreSQL, and logged **330+ hours evaluating enterprise LLMs** at Outlier AI.",
+    "I'm an engineering undergrad at BMSIT&M, Bengaluru, who enjoys building products and solving engineering problems end-to-end. I've taken PUC Notes & Solutions from an idea to an educational platform serving thousands of students, built AiiN, a real-time AI interview platform using FastAPI and PostgreSQL, and have contributed 330+ hours evaluating enterprise LLMs at Outlier.",
   avatarUrl: "/me.png",
   skills: [
     // Core Strongholds
@@ -55,7 +55,7 @@ export const DATA = {
     },
   },
 
-  // Displayed under "Previous Works"
+  // Displayed under "Works & Contributions"
   work: [
     {
       company: "PUC Notes & Solutions",
@@ -63,7 +63,7 @@ export const DATA = {
       badges: ["5k–10k Monthly Users", "Creator"],
       location: "Bengaluru, India",
       title: "Founder & Lead Developer",
-      logoUrl: "/pucnotes.png",
+      logoUrl: "/PUCNotes.png",
       start: "",
       end: "Present",
       description:
@@ -87,7 +87,7 @@ export const DATA = {
       badges: ["Freelance / Intern", "Live Production"],
       location: "Bengaluru, India",
       title: "Web Developer & Maintainer",
-      logoUrl: "/isaitonic.png",
+      logoUrl: "/IsaiTonic.png",
       start: "",
       end: "",
       description:
@@ -149,11 +149,6 @@ export const DATA = {
         "Python",
         "FastAPI",
         "PostgreSQL",
-        "SQLAlchemy",
-        "Alembic",
-        "WebSockets",
-        "Gemini API",
-        "PDFKit",
       ],
       links: [
         {
@@ -179,8 +174,6 @@ export const DATA = {
         "Shipped a multimodal GenAI web application integrating Google Gemini APIs via Server Actions. Enables automated food logging through image analysis and natural language parsing, conditioned on user metrics, regional Indian food availability, and allergies.",
       technologies: [
         "Google Gemini API",
-        "Server Actions",
-        "Multimodal Vision",
         "Prompt Engineering",
         "Vercel",
       ],
